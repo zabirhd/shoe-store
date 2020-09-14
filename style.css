@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+body{
+    background: linear-gradient(-90deg,#383c42,#5a5d69);
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: serif;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.fa.fa-bars{
+    width: 100px;
+    cursor: pointer;
+    
+}
+.nav-bar i{
+    font-size: 25px;
+}
+.nav-bar{
+
+    margin: auto;
+    padding-left: 100px;
+    
+    
+
+}
+.nav-bar ul {
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 400px;
+    
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    justify-content: space-around;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    color: bisque;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.content{
+    display: flex;
+    
+}
+.pump{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    font-size: 150px;
+    letter-spacing: 0.04em;
+    font-weight: 800;
+    color: #63656f;
+    transform: scaleY(1.2);
+    text-transform: uppercase;
+}
+.rb{
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    font-size: 50px;
+    letter-spacing: 0.04em;
+    font-weight: 800;
+    color: white;
+    transform: scaleY(1);
+    text-transform: uppercase;
+}
+.plus{
+    position: absolute;
+    top: 235px;
+    left: 160px;
+    font-size: 50px;
+    letter-spacing: 0.02em;
+    font-weight: 800;
+    color: white;
+    transform: scaleY(1.2);
+    text-transform: uppercase;
+}
+.bgl img{
+     width: 400px;
+     height: 350px;
+     opacity: 0.5;
+     filter: invert(10%);
+    
+    
+}
+.bgl{
+   
+   
+    padding-left: 700px;
+    position: absolute;
+ 
+
+    
+}
+.shoe img{
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+    filter: saturate(100%);
+    
+   
+    
+}
+.shoe{
+
+    padding-left: 790px;
+    padding-top: 20px;
+
+}
+.right{
+    margin: auto;
+    padding-top: 100px;
+}
+.over{
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.2em;
+}
+.des{
+    position: absolute;
+    top: 430px;
+    left: 60px;
+    width: 40%;
+    font-size: 12px;
+    font-weight: 600;
+    color:#7e8088;
+    letter-spacing: 0.05em;
+}
+.df{
+    position: absolute;
+    top: 510px;
+    left: 60px;
+    width: 40%;
+    font-size: 15px;
+    font-weight: 500;
+    color:white;
+    letter-spacing: 0.06em;
+}
+.des2{
+    position: absolute;
+    top: 535px;
+    left: 60px;
+    width: 30%;
+    font-size: 13px;
+    color:rgb(221, 202, 202);
+    letter-spacing: 0.03em;
+}
+.stick{
+    background: #f97100;
+    height: 3px;
+    width: 10px;
+    position: absolute;
+    top: 410px;
+    left: 40px;
+}
+.stick2{
+    background: #f97100;
+    height: 3px;
+    width: 10px;
+    position: absolute;
+    top: 540px;
+    left: 45px;
+
+}
+.stick3{
+    background: #f97100;
+    height: 3px;
+    width: 10px;
+    position: absolute;
+    top: 557px;
+    left: 45px;
+
+}
+.stick4{
+    background: #f97100;
+    height: 3px;
+    width: 10px;
+    position: absolute;
+    top: 574px;
+    left: 45px;
+
+}
